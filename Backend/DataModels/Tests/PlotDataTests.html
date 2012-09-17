@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>PlotDataTests</title>
+  <link rel="stylesheet" href="../../../Common/qunit.css">
+</head>
+<body>
+  <div id="qunit"></div>
+  <div id="qunit-fixture"></div>
+  <script src="../../../Common/qunit.js"></script>
+  <script src="../../Core/Namespaces.js"></script>
+  <script src="../PlotData.js"></script>
+  <script>
+    test( "Calling AddData should increase numPoints by one.", function() {
+      var value = 1;
+      var plotData = new WPD.Backend.DataModels.PlotData();
+      plotData.AddData();
+      equal( value, plotData.numPoints, "We expect value to be one" );
+    });
+  </script>
+</body>
+</html>
