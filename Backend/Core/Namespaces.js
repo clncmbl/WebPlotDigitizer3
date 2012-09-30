@@ -7,4 +7,4 @@ var WPD = {
 	},
 	Frontend: {},
 	Tests: {}
-}
+};
