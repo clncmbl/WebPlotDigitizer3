@@ -1,0 +1,1 @@
+This contains stuff related to image processing and feature extraction. This could be in JS, Python, Matlab, or pretty much anything.
