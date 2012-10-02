@@ -1,10 +1,9 @@
-WPD.Backend.DataModels.AxisData =  function() {
+WPD.Backend.DataModels.AxisData = {
 	
-	var self = this;
-	self.type = AxisTyes.none;
-	self.axisPixels = [];
-	self.calibrationData = [];
-	self.isCalibrated = false;	
+	type: self.AxisTyes.none,
+	axisPixels: [],
+	calibrationData: [],
+	isCalibrated: false	
 	
 };
 
