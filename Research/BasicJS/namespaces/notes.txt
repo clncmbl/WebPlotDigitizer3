@@ -1,0 +1,4 @@
+Lessons:
+
+* Object notation is too verbose. Not a good idea.
+* Look into modules approach.
