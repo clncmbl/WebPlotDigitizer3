@@ -1,3 +1,4 @@
+// Convert this to a module
 WPD.Backend.DataModels.PlotData =  function() {
 	var self = this;
 	self.dataPoints = [];
